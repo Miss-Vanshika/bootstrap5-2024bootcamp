@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Frontend Bootcamp</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Showcase-->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Web Developer</span></h1>
+            <p class="lead my-4">
+              We focus on teaching our students the fundamentals of the latest
+              and greatest technologies to prepare them for their first dev role
+            </p>
+            <button class="btn btn-primary btn-lg" data-bs-target="#enroll" 
+            data-bs-toggle="modal">
+            Start the Enrollment</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Newsletter-->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn btn-dark btn-lg" type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Boxes-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Assumenda veritatis facilis dolorum dolorem amet quas.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Hybrid</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Corporis, perferendis cumque repellat molestiae consectetur
+                  eos.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">In Person</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Corporis, perferendis cumque repellat molestiae consectetur
+                  eos.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Learn Sections-->
+    <section class="p-5" id="learn">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/fundamentals.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn the Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos alias culpa dicta modi expedita deleniti?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Adipisci, perferendis facere eaque qui, at amet rerum ipsam
+              reiciendis, laudantium necessitatibus ipsum assumenda nesciunt
+              praesentium eius dolorum. Reprehenderit iste consequuntur
+              corporis?
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-dark text-light" id="learn">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Learn React</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos alias culpa dicta modi expedita deleniti?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Adipisci, perferendis facere eaque qui, at amet rerum ipsam
+              reiciendis, laudantium necessitatibus ipsum assumenda nesciunt
+              praesentium eius dolorum. Reprehenderit iste consequuntur
+              corporis?
+            </p>
+            <a href="#" class="btn btn-light mt-2">
+              <i class="bi bi-chevron-right"></i> Read More</a
+            >
+          </div>
+          <div class="col-md">
+            <img src="img/react.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Questions Accordion-->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!--Item-1-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Where exactly are you located?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam voluptas consectetur iusto officia nesciunt eos
+                explicabo suscipit ea? Cumque, incidunt expedita blanditiis
+                fuga, ipsam nihil ut esse placeat distinctio voluptas
+                consectetur molestias aspernatur, consequatur vel tenetur ullam
+                iure quam repudiandae.
+              </div>
+            </div>
+          </div>
+          <!--Item-2-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam voluptas consectetur iusto officia nesciunt eos
+                explicabo suscipit ea? Cumque, incidunt expedita blanditiis
+                fuga, ipsam nihil ut esse placeat distinctio voluptas
+                consectetur molestias aspernatur, consequatur vel tenetur ullam
+                iure quam repudiandae.
+              </div>
+            </div>
+          </div>
+          <!--Item-3-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                What do I need to know?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam voluptas consectetur iusto officia nesciunt eos
+                explicabo suscipit ea? Cumque, incidunt expedita blanditiis
+                fuga, ipsam nihil ut esse placeat distinctio voluptas
+                consectetur molestias aspernatur, consequatur vel tenetur ullam
+                iure quam repudiandae.
+              </div>
+            </div>
+          </div>
+          <!--Item-4-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                How do I sign up?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam voluptas consectetur iusto officia nesciunt eos
+                explicabo suscipit ea? Cumque, incidunt expedita blanditiis
+                fuga, ipsam nihil ut esse placeat distinctio voluptas
+                consectetur molestias aspernatur, consequatur vel tenetur ullam
+                iure quam repudiandae.
+              </div>
+            </div>
+          </div>
+          <!--Item 5-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                Will you help me find a job?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam voluptas consectetur iusto officia nesciunt eos
+                explicabo suscipit ea? Cumque, incidunt expedita blanditiis
+                fuga, ipsam nihil ut esse placeat distinctio voluptas
+                consectetur molestias aspernatur, consequatur vel tenetur ullam
+                iure quam repudiandae.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Instructors-->
+    <section id="instructors" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Our Instructors</h2>
+        <p class="lead text-center text-white">
+          Our instructors all have 5+ years of experience working as a web
+          developer in the industry
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYX1dyl9INRo5cbvDeTILRcZVzfcMsCsE0kg&usqp=CAU"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">John Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium molestiae hic autem praesentium, suscipit aut!
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzQQReYpiJSWnx5ib_Tp1MaDRLpyc0Jazmow&usqp=CAU"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Jane Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium molestiae hic autem praesentium, suscipit aut!
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR69d0ip5CZ1j39M3yNlYkvUbR-0svEqESarA&usqp=CAU"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Steve Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium molestiae hic autem praesentium, suscipit aut!
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Sara Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium molestiae hic autem praesentium, suscipit aut!
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact info. & map-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Conatct Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Phone:</span> (333) 333-3333
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email:</span>
+                (555)enroll@frontendbc.test
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Email:</span>
+                student@frontendbc.test
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map-img">
+              <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/022/967/352/small/city-map-gps-navigation-with-location-pin-markers-urban-downtown-roads-parks-river-red-pointers-on-roadmap-navigator-illustration-vector.jpg"
+              alt=""
+            />
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2024 Frontend Bootcamp</p>
+        <a href="#" class="position-absolute p-5 bottom-0 end-0">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel">Quick Enrollment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out this form and we will get back to you</p>
+        <form>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">First Name:</label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">Last Name:</label>
+            <input type="text" class="form-control" id="last-name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">E-mail:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone:</label>
+            <input type="tel" class="form-control" id="phone">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
